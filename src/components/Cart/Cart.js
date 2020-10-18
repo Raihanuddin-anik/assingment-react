@@ -7,13 +7,14 @@ const Cart = (props) => {
 let total = 0;
 for (let i = 0; i < cart.length; i++) {
     const product = cart[i];
-    total = total + product.price;
+    total = total + parseFloat(product.price);
+    
 }
 
     return (
         <div className="cart-style">
             <p>This is cart{cart.length}</p>
-    <p>price{total}</p>
+            <p>price{total}</p>
            
         
              
