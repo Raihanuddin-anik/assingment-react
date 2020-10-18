@@ -1,0 +1,15 @@
+img{
+     height: 100px;
+}
+
+.style{
+     height:350px;
+     width:25%;
+     border:1px solid gray;
+     
+     float: left;
+     margin:5px;
+     padding:5px;
+     background-color:whitesmoke;
+   
+}
